@@ -9,7 +9,7 @@
 </servlet>
     <servlet-mapping>
         <servlet-name>parametertest2servlet</servlet-name>
-        <url-pattern>/test</url-pattern>
+        <url-pattern>/paramtest1</url-pattern>
     </servlet-mapping>
     
 </web-app>
