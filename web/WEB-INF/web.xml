@@ -29,5 +29,12 @@
         <servlet-name>allparameters</servlet-name>
         <url-pattern>/allparam</url-pattern>
     </servlet-mapping>
-    
+    <servlet>
+        <servlet-name>sessionservlet</servlet-name>
+        <servlet-class>kz.kaznitu.test.SessionTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sessionservlet</servlet-name>
+        <url-pattern>/sessiontest</url-pattern>
+    </servlet-mapping>
 </web-app>
