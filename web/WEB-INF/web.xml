@@ -4,12 +4,21 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 <servlet>
-    <servlet-name>parametertest2servlet</servlet-name>
+    <servlet-name>parametertest12servlet</servlet-name>
     <servlet-class>kz.kaznitu.test.ParameterTest12Servlet</servlet-class>
 </servlet>
     <servlet-mapping>
-        <servlet-name>parametertest2servlet</servlet-name>
+        <servlet-name>parametertest12servlet</servlet-name>
         <url-pattern>/paramtest1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>checkboxtest</servlet-name>
+        <servlet-class>kz.kaznitu.test.CheckBoxTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>checkboxtest</servlet-name>
+        <url-pattern>/checkbox</url-pattern>
     </servlet-mapping>
     
 </web-app>
